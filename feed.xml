@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>P128 — tiny reviews of tiny games</title>
-    <atom:link href="http://localhost:8080/feed.xml" rel="self" type="application/rss+xml"></atom:link>
-    <link>http://localhost:8080</link>
+    <atom:link href="p128.reviews/feed.xml" rel="self" type="application/rss+xml"></atom:link>
+    <link>p128.reviews</link>
     <description>tiny reviews of tiny games</description>
     <pubDate>Thu, 05 Oct 2017 10:45:00 +0200</pubDate>
     <generator>Wintersmith - https://github.com/jnordberg/wintersmith</generator>
     <language>en</language>
     <item>
       <title>MAZE DOG</title>
-      <link>http://localhost:8080/articles/maze-dog/</link>
+      <link>p128.reviews/articles/maze-dog/</link>
       <pubDate>Thu, 05 Oct 2017 10:45:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/maze-dog/</guid>
+      <guid isPermaLink="true">p128.reviews/articles/maze-dog/</guid>
       <author></author>
       <description>&lt;p&gt;FIND THE CHICKS! DIG FOR SNACKS! ANNOY THE DUCKS! NAVIGATE THE MAZE! &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;MAZE DOG&lt;/em&gt; is a cute little adventure game for 1 player, sporting a seriously rad theme tune and a simple yet fun aesthetic! You go from screen to screen controlling a cute little puppy. You need to find 8 chickens that has run away from their home and theres’ 8 “snacks” hidden throughout the game for completionists. Going from screen to screen can be a little dull sometimes, but finding a chick does feel rewarding. Plus there are a bunch of little details that I enjoy, like pushing bulldogs into puddles or going to the beach to bark at ducks (don’t do it!). &lt;/p&gt;
@@ -20,20 +20,20 @@
 </description>
     </item>
     <item>
-      <title>Space Tavern Poker</title>
-      <link>http://localhost:8080/articles/space-tavern-poker/</link>
+      <title>DALEK</title>
+      <link>p128.reviews/articles/dalek/</link>
       <pubDate>Wed, 04 Oct 2017 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/space-tavern-poker/</guid>
+      <guid isPermaLink="true">p128.reviews/articles/dalek/</guid>
       <author></author>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis urna vel facilisis auctor. Curabitur blandit rhoncus felis, a lobortis diam consectetur eu. Pellentesque malesuada libero tristique quam commodo aliquam. Proin sapien enim, convallis iaculis nisl eget, imperdiet semper odio. Morbi finibus purus purus, id consectetur lacus fermentum ac. Pellentesque ac convallis ante. Donec auctor varius consequat. Nullam id viverra lorem, sit amet interdum urna. Etiam facilisis neque sapien. Phasellus sollicitudin arcu quis tempus facilisis. Cras pellentesque sollicitudin ante a sodales.&lt;/p&gt;
 &lt;p&gt;Etiam tincidunt luctus lacus, at gravida sapien viverra ac. Pellentesque sit amet purus in dui blandit efficitur. Nunc viverra id urna eget ultrices. Aliquam eget efficitur odio, non tristique arcu. Quisque cursus congue ipsum vitae dictum. Suspendisse volutpat semper tempor. Vestibulum eget facilisis lacus, sed pretium mauris.&lt;/p&gt;
 </description>
     </item>
     <item>
-      <title>DALEK</title>
-      <link>http://localhost:8080/articles/dalek/</link>
+      <title>Space Tavern Poker</title>
+      <link>p128.reviews/articles/space-tavern-poker/</link>
       <pubDate>Wed, 04 Oct 2017 15:00:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/dalek/</guid>
+      <guid isPermaLink="true">p128.reviews/articles/space-tavern-poker/</guid>
       <author></author>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis urna vel facilisis auctor. Curabitur blandit rhoncus felis, a lobortis diam consectetur eu. Pellentesque malesuada libero tristique quam commodo aliquam. Proin sapien enim, convallis iaculis nisl eget, imperdiet semper odio. Morbi finibus purus purus, id consectetur lacus fermentum ac. Pellentesque ac convallis ante. Donec auctor varius consequat. Nullam id viverra lorem, sit amet interdum urna. Etiam facilisis neque sapien. Phasellus sollicitudin arcu quis tempus facilisis. Cras pellentesque sollicitudin ante a sodales.&lt;/p&gt;
 &lt;p&gt;Etiam tincidunt luctus lacus, at gravida sapien viverra ac. Pellentesque sit amet purus in dui blandit efficitur. Nunc viverra id urna eget ultrices. Aliquam eget efficitur odio, non tristique arcu. Quisque cursus congue ipsum vitae dictum. Suspendisse volutpat semper tempor. Vestibulum eget facilisis lacus, sed pretium mauris.&lt;/p&gt;
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>Plan Bee</title>
-      <link>http://localhost:8080/articles/plan-bee/</link>
+      <link>p128.reviews/articles/plan-bee/</link>
       <pubDate>Wed, 04 Oct 2017 10:30:00 +0200</pubDate>
-      <guid isPermaLink="true">http://localhost:8080/articles/plan-bee/</guid>
+      <guid isPermaLink="true">p128.reviews/articles/plan-bee/</guid>
       <author></author>
       <description>&lt;p&gt;In &lt;em&gt;Plan Bee&lt;/em&gt; you play as a “bee”. A bee is a type of flying insect that plays a super important part of the eco-system. It “pollinates” the flowers by taking “pollen” from one flower to another, helping the flowers create new flowers, ensuring eco-diversity. It is your job as a player to navigate from flower to flower, collecting the pollen. But your bee is dizzy and starving, probably from &lt;a href=&quot;https://en.wikipedia.org/wiki/Colony_collapse_disorder&quot;&gt;colony collapse disorder&lt;/a&gt;, and will die soon should you fail to find new pollen in time or collapse to the ground! &lt;/p&gt;
 &lt;p&gt;Plan Bee is a fun little 5 minute high-score single player game, sorta like Flappy Bird.&lt;/p&gt;
