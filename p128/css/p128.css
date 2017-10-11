@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+img[src$=".gif"], img[src$=".png"] {
+                   image-rendering: -moz-pixelated;         /* Firefox */
+                   image-rendering:   -o-pixelated;         /* Opera */
+                   image-rendering: -webkit-pixelated;/* Webkit (non-standard naming) */
+                   image-rendering: pixelated;
+                   -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+                 }
+
+canvas{
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+canvas#canvas {
+    width: 256px; 
+    height: 256px; 
+    margin-top: 25px;
+    margin-left: 71px;
+    border-radius: 5%;
+    border:  5px #FFF1E8 solid;
+    background-color: #FFF1E8;
+}
+
+.demo {
+    color: #FFF1E8;
+}
+
+.wrapper {
+    width:100%;
+    max-width: 100vh;
+    min-width: 414px;
+    margin: auto;
+}
+
+.lightgray {
+    background: #FFF1E8;
+}
+.lightgray:nth-child(even) {
+    background:  #FFF1E8;
+}
+
+
+
+.tv {
+    width: 80%;
+    height: 60vw;
+    image-rendering: pixelated;
+    border-radius: 10vw 3% 3% 3%;
+}
+
+.computer {
+    background-image: url(../../images/computer.svg);
+    background-size: cover;
+    height: 365px;
+    width: 380px;
+    margin: auto
+}
+
+.computer img {
+    margin-top: 25px;
+    margin-left: 66px;
+    border-radius: 5%;
+    border:  5px #FFF1E8 solid;
+    background-color: #FFF1E8;
+}
+
+.square { 
+    text-align: center;
+    overflow: hidden;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.review {
+    width:100%;
+    max-width: 100vh;
+    min-width: 414px;
+    min-height: 468px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    margin:auto;
+    text-align: left;
+    background-color:#FFF1E8;
+}
+
+.review section {
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.review img {
+    max-width: 100%;
+}
+
+
+.cart {
+    display: inline-block;
+    
+    position: relative;
+    right:8px;
+    bottom: 4px;
+}
+
+.cartthing  {
+    width: 256px;
+    height: 256px;
+    padding-top: 36px;
+    padding-bottom: 100px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: #5F574F;
+    border-radius: 8px 8px 48px 8px;
+    box-shadow: 16px 16px 0px #000000;
+}
+
+.cartthing div {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px 4px 0 0;
+    background-position: -32px -48px;
+    background-size: 320px;
+    image-rendering: -moz-pixelated;         /* Firefox */
+    image-rendering:   -o-pixelated;         /* Opera */
+    image-rendering: -webkit-pixelated;/* Webkit (non-standard naming) */
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+
+.cart span {
+    width: 256px;
+    border-radius: 0px 0px 16px 4px ;
+    background-color:#FFF1E8;
+    top: 292px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    left:24px;
+    text-align: center;
+    color:black;
+    position: absolute
+}
+
+.facts {
+    background-color: black;
+    color: #FFF1E8;
+    font-size: 16px;
+    width: 198px;
+    min-height: 256px;
+    padding: 16px;
+    margin-left: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    float: left;
+    border-radius: 8px 8px 36px 8px;
+}
+
+.controller {
+    width: 375px;
+    margin:auto;
+    text-align: center;
+}
+
+.controller img {
+    margin-top: -80px;
+}
+
+.controller .button {
+    margin-right: 15px;
+    display: inline-block;
+    color: #FFF1E8;
+    font-size: 20px;
+    position: relative;
+    bottom: 155px;
+    left: 90px;
+}
+
+.button div {
+    width: 50px;
+    height: 50px;
+    border: 5px solid  #FFF1E8;
+    border-radius: 50%;
+    box-shadow: 4px 4px 0px #000000;
+}
+
+.controller a {
+     text-decoration: none;
+    font-weight: bold;
+}
+
+.controller .button:hover div {
+    background-color: #FFF1E8;
+}
+
+.controller .button:active div {
+    background-color: #FFF1E8;
+    box-shadow: none;
+}
+
+.about {
+    background: black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    color: #FFF1E8;
+    margin: auto;
+    font-size: 14px;
+    text-align: justify;
+}
+
+section.author {
+    text-align: right;
+    margin-top: 16px;
+}
+
+.copy {
+    width: 80%;
+    color: #FFF1E8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 14px; 
+}
+
+a:visited {
+    color:inherit;
+}
+
+a {
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6, p, body, a, img, ul, ol, blockquote, pre {
+  margin: 0; padding: 0; border: 0;
+}
+
+body {
+  font-family: 'Muli';
+  font-size: 21px;
+  line-height: 1.52;
+  background-color: black;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 30px;
+     margin-right: 30px;
+    font-weight: 200;
+        margin-bottom: 30px;
+}
+
+
+.info {
+    max-width: 80%;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    color:  #FFF1E8;
+    margin-top: 2.1em;
+    text-align: left;
+}
+
+.info div {
+    margin-left: 3em;
+    display: inline-block;
+}
+
+.infoicon {
+    float: left;
+    font-size: 2em;
+    margin-bottom: -2em;
+}
+
+label {
+    color: #FFF1E8;
+    border: 3px solid rgba(1,1,1,0);
+    border-bottom: solid rgba(0,0,0,0)
+    border-radius: 10px 10px 0 0;
+    padding: 2px 5px 2px 5px;
+    float: left;
+    margin-left: 10%;
+    margin-right: -9%;
+    margin-top:2em;
+}
+
+input:checked + label {
+    background: #FFF1E8;
+    color:black;
+    border: 3px solid #FFF1E8;
+    border-bottom: solid rgba(0,0,0,0);
+    border-radius: 10px 10px 0 0;
+}
+
+label:hover {
+cursor: pointer;
+border: 3px solid #FFF1E8;
+border-radius: 10px;
+}
+
+@viewport {
+    width: device-width;
+    min-width: 414px;
+}
+
+/* media queries */
+
+@media (min-width: 1600px) {
+  body { font-size: 26px; }
+}
+
+@media (max-width: 900px) {
+  body { font-size: 18px; }
+}
+
+@media (max-width: 690px) {
+}

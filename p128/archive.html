@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta id="myViewport" name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      window.onload = function () {
+          if (window.innerWidth < 414) {
+              var mvp = document.getElementById('myViewport');
+              mvp.setAttribute('content','width=414');
+          }
+      }
+    </script>
+    <title>P128 — tiny reviews of tiny games
+    </title>
+    <link rel="alternate" href="http://localhost:8080/feed.xml" type="application/rss+xml" title="tiny reviews of tiny games">
+    <link rel="stylesheet" href="/css/p128.css">
+    <script src="/jquery-3.2.1.min.js"></script>
+    <script src="/scripts.js"></script>
+  </head>
+  <body>
+    <div class="randomcolor wrapper">
+      <header>
+        <div class="square"><img src="http://localhost:8080/images/logo_white.svg" width="80%"><br></div>
+      </header>
+      <section class="archive">
+        <h2>Archive</h2>
+        <ul>
+          <li><span style="line-height:8.8em" class="year-label">2017</span>
+            <ul style="margin-left:4em">
+              <li><span style="line-height:8.8em" class="month-label">October</span>
+                <ul style="margin-left:7em">
+                  <li style="height:2.2em;line-height:2.2em"><a href="/articles/maze-dog/">MAZE DOG</a></li>
+                  <li style="height:2.2em;line-height:2.2em"><a href="/articles/space-tavern-poker/">Space Tavern Poker</a></li>
+                  <li style="height:2.2em;line-height:2.2em"><a href="/articles/dalek/">DALEK</a></li>
+                  <li style="height:2.2em;line-height:2.2em"><a href="/articles/plan-bee/">Plan Bee</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <footer>
+        <div class="square">
+          <div class="controller"><img src="http://localhost:8080/images/controller.svg">
+          </div>
+          <section class="info"><span class="infoicon">ⓘ</span>
+            <div> <p>P128 — tiny reviews of tiny games — is a blog with reviews of PICO-8 games. <a href="https://www.lexaloffle.com/pico-8.php">PICO-8</a> is an 8-bit “Fantasy Console”, sort of like an emulator, but with developer tools built in.</p>
+<p>All reviews on this site are written in 128 words or less.</p>
+<p>P128 is made and edited by me, <a href="https://twitter.com/ossianboren">Ossian ‘catnipped’ Borén</a>, and indie artist and game developer. If you want to support my work, please share it and/or give me some money on <a href="https://www.patreon.com/catnipped">Patreon</a>.</p>
+
+            </div>
+          </section>
+          <section class="copy">
+            <p>CC 2017 catnipped</p>
+          </section>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
